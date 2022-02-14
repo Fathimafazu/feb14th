@@ -1,0 +1,10 @@
+n=int(input('enter number:'))
+sum=0
+while n>0:
+    a=n%10
+    sum=sum+a
+    n=n//10
+print('entersum of digits 0f number is:',sum)
+enter number:
+1234
+entersum of digits 0f number is: 10
